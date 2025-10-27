@@ -35,12 +35,12 @@ To run this website locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/rajnipawar/rajnipawar.github.io.git
+   git clone https://github.com/rajnipawar/professional-website.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd rajnipawar.github.io
+   cd professional-website
    ```
 
 3. Open `index.html` in your web browser, or use a local server:
@@ -54,45 +54,7 @@ To run this website locally:
 
 ## Deployment to GitHub Pages
 
-Follow these steps to deploy your website to GitHub Pages:
-
-### Step 1: Initialize Git Repository
-
-```bash
-git init
-git add .
-git commit -m "Initial commit: Personal website"
-```
-
-### Step 2: Create GitHub Repository
-
-1. Go to [GitHub](https://github.com) and log in
-2. Click the '+' icon in the top right and select 'New repository'
-3. Name your repository `rajnipawar.github.io` (replace with your GitHub username)
-4. Do NOT initialize with README, .gitignore, or license
-5. Click 'Create repository'
-
-### Step 3: Connect Local Repository to GitHub
-
-```bash
-git remote add origin https://github.com/rajnipawar/rajnipawar.github.io.git
-git branch -M main
-git push -u origin main
-```
-
-### Step 4: Enable GitHub Pages
-
-1. Go to your repository on GitHub
-2. Click on 'Settings' tab
-3. Scroll down to 'Pages' in the left sidebar
-4. Under 'Source', select 'main' branch
-5. Click 'Save'
-
-### Step 5: Access Your Website
-
-Your website will be live at: `https://rajnipawar.github.io`
-
-It may take a few minutes for the site to be published initially.
+This website is deployed at: [https://rajnipawar.github.io/professional-website/](https://rajnipawar.github.io/professional-website/)
 
 ## Updating Your Website
 
@@ -121,10 +83,10 @@ The website uses CSS variables for easy color customization. Edit these in `styl
 
 ```css
 :root {
-    --primary-color: #2563eb;
-    --secondary-color: #1e40af;
-    --text-color: #1f2937;
-    --text-light: #6b7280;
+    --primary-color: #3b82f6;
+    --secondary-color: #60a5fa;
+    --text-color: #e5e7eb;
+    --text-light: #9ca3af;
     /* ... more variables */
 }
 ```
